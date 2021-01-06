@@ -1,0 +1,176 @@
+
+ html{scroll-behavior: smooth;}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Teko', sans-serif;
+   
+}
+
+
+header{
+    width:100%;
+    height: 50px;
+   
+}
+
+header h3{
+    position: absolute;
+   margin: 3px;
+    margin-left:25px;
+    float: left;
+    color:rgb(0, 204, 255) ;
+    font-size: 4vh;
+}
+
+ul{
+    width: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+
+}
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+a:hover{
+    color:#F0c330;
+    
+}
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3px;
+}
+
+.half-width img{
+    width:100%;
+}
+
+.half-width button{
+    padding: 5px;
+    background-color: rgb(248, 116, 68);
+    border: none;
+}
+   
+.second h2{
+    font-size:30px; 
+    text-align: center;
+}
+
+.second button{
+    padding: 15px;
+}
+
+.working-section{
+
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.work-title h5{
+   font-size: 40px;
+   margin-bottom: -30px;
+}
+
+.working-section img{
+    width: 100%;
+}
+
+
+.working-pic{
+    width:22%;
+    float: left;
+    margin: 5%;
+    
+}
+
+.contact-section{
+       background: url(image/pc.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       padding: 40px 0px;
+}
+
+.contact-section h1{
+    text-align: center;
+    color: rgb(61, 60, 48);
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background:#20394b ;
+    margin: 40px auto;
+}
+
+.contact-form{
+    max-width: 600px;
+}
+
+.contact-text-form{
+    display: block;
+    width: 100px;
+    margin: 16px 300px;
+    background: rgb(235, 212, 212);
+    padding: 15px 200px;
+
+}
+
+.contact-form-btn{
+    background: slateblue;
+    color: snow;
+    padding:5px 10px;
+    margin-left: 300px;
+}
+
+
+.inquary-section{
+    background: url(image/footer.png);
+    
+    background-repeat: no-repeat;
+    max-width: 600px;
+    margin-left: 200px;
+    
+    
+}
+.inquary{
+    text-align: center;
+}
+.in-btn{
+    margin-left: 250px;
+    
+}
+
+.in-btn button{
+    pad: 20px;
+    background-color: tomato;
+}
+
+footer{
+   
+    text-align: center;
+}
+
+.three-photo{
+    float: left;
+   width:100%;
+   margin-left:75px ;
+   margin-top: -50px;
+}
+
+.three-photo img{
+   width:50px;
+}
